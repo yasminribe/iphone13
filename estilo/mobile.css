@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+/* Geral Mobile First */
+
+
+@media (max-width: 748px)  {
+    #nav-bar li {
+        display: none;
+    }
+    #nav-bar #logo{
+        display: flex;
+        
+    }
+    #bottom-header-links a {
+        display: none;
+    }
+    #bottom-header-links .btn {
+        display: flex;
+    }
+    #main-conteudo {
+        padding: 2rem;
+        overflow: hidden;
+    }
+    #main-conteudo #subtitle {
+        font-size: 3rem;
+    }
+    #main-conteudo #descricao {
+        max-width: 100%;
+    }
+}
