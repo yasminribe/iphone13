@@ -155,7 +155,7 @@ header nav {
     border-radius: 50%;
     box-shadow: 1px 1px 1px;
     border: 4px solid #fff;
-    pointer-events: none;
+    pointer-events: none; /* não dispara evento */
 }
 
 #imagem-produto li .descricao {
@@ -183,6 +183,9 @@ header nav {
 #blue .color {
     background-color: #B9CFE6;
 }
+.selected {
+    outline: 2px solid #43a1ff;
+  }
 
 #rodape {
     height: 10vh;
