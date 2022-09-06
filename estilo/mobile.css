@@ -27,4 +27,11 @@
     #main-conteudo #descricao {
         max-width: 100%;
     }
+    #main-conteudo #produto{
+        max-width: 100%;
+    }
+    #imagem-produto li .color {
+        width: 1rem;
+        height: 1rem;
+    }
 }
